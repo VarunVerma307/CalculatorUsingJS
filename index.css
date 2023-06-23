@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(210, 210, 198);
+   
+}
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    background-color: rgb(53, 89, 89);
+    padding: 2%;
+    border-radius: 10px;
+}
+input{
+    padding: 2px;
+    height: 40px;
+    width: 40px;
+    background: transparent;
+    border:none;
+    border-radius: 5px;
+    margin: 5px;
+    font-size: 20px;
+    box-shadow:-2px -2px 14px rgb(49, 48, 48) , 5px 5px 14px rgb(18, 18, 18);
+    color: rgb(0, 0, 0);
+
+}
+#display{
+   width: 200px;
+   box-shadow: none;
+   border-bottom: 1px solid black;
+   text-align: right;
+
+
+}
+#equal{
+    width: 90px;
+}
